@@ -1,0 +1,24 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>2.0</jsp-version>
+<short-name>Example TLD with body</short-name>
+<tag>
+<name>Loan</name>
+<tag-class>loanTag.MyLoanCalculator</tag-class>
+<body-content>scriptless</body-content>
+<attribute>
+<name>loanAmount</name>
+<required>true</required>
+</attribute>
+<attribute>
+<name>numberOfYears</name>
+<required>true</required>
+</attribute>
+<attribute>
+<name>annualInterestRate</name>
+<required>true</required>
+</attribute>
+</tag>
+
+
+</taglib>
